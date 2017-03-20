@@ -6,6 +6,49 @@ JKKE.CO CSS.
 
 **/
 
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400");
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,700');
+
 
 /** NATIVE HTML
 --------------------------------------------------------- */
+body {
+	font-family: raleway;
+	background-color: #383838;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #83d065;
+	font-weight: 100;
+	text-align: center;
+}
+h2 {
+	color: #fff;
+	font-weight: 100;
+	text-align: center;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: solid transparent;
+	font-size: 25;
+	transition: border-bottom ease-in-out 500ms, font-size 500ms;
+}
+a:hover {
+	font-size: 30px;
+	border-color: white;
+}
+/** CONTAINERS
+--------------------------------------------------------- */
+.titlecontainer {
+	padding-top: 10%;
+	padding-bottom: 7%;
+}
+.linkcontainer {
+	display: flex;
+	margin-left: 20%;
+	margin-right: 65%;
+	justify-content: flex-end;
+}
